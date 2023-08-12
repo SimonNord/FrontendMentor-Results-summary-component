@@ -106,6 +106,7 @@ body {
 section.summary {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     row-gap: 20px;
     padding: 20px;
 }
@@ -189,7 +190,7 @@ button:hover {
             var(--bg-gradient-royal-blue));
 }
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
     .flex {
         display: flex;
         flex-direction: row;
